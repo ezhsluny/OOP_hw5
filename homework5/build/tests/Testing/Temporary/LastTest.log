@@ -1,0 +1,91 @@
+Start testing: Nov 30 10:50 +07
+----------------------------------------------------------
+1/1 Testing: test_homework5
+1/1 Test: test_homework5
+Command: "/home/ezhsluny/Documents/C++/OOP/homework5/build/tests/test_homework5"
+Directory: /home/ezhsluny/Documents/C++/OOP/homework5/build/tests
+"test_homework5" start time: Nov 30 10:50 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/ezhsluny/Documents/C++/OOP/homework5/googletest/googletest/src/gtest_main.cc
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from TimeTest
+[ RUN      ] TimeTest.DefaultConstructor
+new Time::object was constructed, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.DefaultConstructor (0 ms)
+[ RUN      ] TimeTest.ParameterizedConstructor
+new Time::object was constructed, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.ParameterizedConstructor (0 ms)
+[ RUN      ] TimeTest.CopyConstructor
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+new Time::object was constructed, current object count: 3
+new Time::object was constructed, current object count: 4
+Time::object was deleted, current object count: 3
+Time::object was deleted, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.CopyConstructor (0 ms)
+[ RUN      ] TimeTest.AssignmentOperator
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+new Time::object was constructed, current object count: 3
+Time::object was deleted, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.AssignmentOperator (0 ms)
+[ RUN      ] TimeTest.AdditionOperator
+new Time::object was constructed, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.AdditionOperator (0 ms)
+[ RUN      ] TimeTest.SubtractionOperator
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.SubtractionOperator (0 ms)
+[ RUN      ] TimeTest.ToSeconds
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.ToSeconds (0 ms)
+[ RUN      ] TimeTest.Normalize
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.Normalize (0 ms)
+[ RUN      ] TimeTest.FailingTest
+new Time::object was constructed, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+new Time::object was constructed, current object count: 2
+Time::object was deleted, current object count: 1
+Time::object was deleted, current object count: 0
+[       OK ] TimeTest.FailingTest (0 ms)
+[----------] 9 tests from TimeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_homework5" end time: Nov 30 10:50 +07
+"test_homework5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 30 10:50 +07
